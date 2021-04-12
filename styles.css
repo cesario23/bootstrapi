@@ -24,3 +24,7 @@ h1 {
     font-style: italic;
     color: #999;
 }
+.card-img-top {
+    height: 90%;
+    width: 70%;
+}
