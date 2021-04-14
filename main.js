@@ -56,7 +56,7 @@ thirdButton.addEventListener ('click', function (){
       .then ((response) =>{
           console.log (response);
           const beerImage = document.querySelector ('.card-img-top')
-          beerImage.src = response.url;
+          beerImage.src = response[0].image_url;
         
       })
 
